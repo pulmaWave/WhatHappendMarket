@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/whathappnedmarket/static/css/main.d87cbb72.chunk.css",
-    "main.js": "/whathappnedmarket/static/js/main.07386f3c.chunk.js",
-    "main.js.map": "/whathappnedmarket/static/js/main.07386f3c.chunk.js.map",
-    "runtime-main.js": "/whathappnedmarket/static/js/runtime-main.328875d0.js",
-    "runtime-main.js.map": "/whathappnedmarket/static/js/runtime-main.328875d0.js.map",
-    "static/js/2.456fdf89.chunk.js": "/whathappnedmarket/static/js/2.456fdf89.chunk.js",
-    "static/js/2.456fdf89.chunk.js.map": "/whathappnedmarket/static/js/2.456fdf89.chunk.js.map",
-    "index.html": "/whathappnedmarket/index.html",
-    "static/css/main.d87cbb72.chunk.css.map": "/whathappnedmarket/static/css/main.d87cbb72.chunk.css.map",
-    "static/js/2.456fdf89.chunk.js.LICENSE.txt": "/whathappnedmarket/static/js/2.456fdf89.chunk.js.LICENSE.txt"
+    "main.css": "/test-frontend/static/css/main.d87cbb72.chunk.css",
+    "main.js": "/test-frontend/static/js/main.07386f3c.chunk.js",
+    "main.js.map": "/test-frontend/static/js/main.07386f3c.chunk.js.map",
+    "runtime-main.js": "/test-frontend/static/js/runtime-main.51b6c086.js",
+    "runtime-main.js.map": "/test-frontend/static/js/runtime-main.51b6c086.js.map",
+    "static/js/2.456fdf89.chunk.js": "/test-frontend/static/js/2.456fdf89.chunk.js",
+    "static/js/2.456fdf89.chunk.js.map": "/test-frontend/static/js/2.456fdf89.chunk.js.map",
+    "index.html": "/test-frontend/index.html",
+    "static/css/main.d87cbb72.chunk.css.map": "/test-frontend/static/css/main.d87cbb72.chunk.css.map",
+    "static/js/2.456fdf89.chunk.js.LICENSE.txt": "/test-frontend/static/js/2.456fdf89.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.328875d0.js",
+    "static/js/runtime-main.51b6c086.js",
     "static/js/2.456fdf89.chunk.js",
     "static/css/main.d87cbb72.chunk.css",
     "static/js/main.07386f3c.chunk.js"
