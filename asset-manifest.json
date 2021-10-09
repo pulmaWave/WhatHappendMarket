@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/deploy-github/static/css/main.d87cbb72.chunk.css",
-    "main.js": "/deploy-github/static/js/main.07386f3c.chunk.js",
-    "main.js.map": "/deploy-github/static/js/main.07386f3c.chunk.js.map",
-    "runtime-main.js": "/deploy-github/static/js/runtime-main.a7d7a88a.js",
-    "runtime-main.js.map": "/deploy-github/static/js/runtime-main.a7d7a88a.js.map",
-    "static/js/2.456fdf89.chunk.js": "/deploy-github/static/js/2.456fdf89.chunk.js",
-    "static/js/2.456fdf89.chunk.js.map": "/deploy-github/static/js/2.456fdf89.chunk.js.map",
-    "index.html": "/deploy-github/index.html",
-    "static/css/main.d87cbb72.chunk.css.map": "/deploy-github/static/css/main.d87cbb72.chunk.css.map",
-    "static/js/2.456fdf89.chunk.js.LICENSE.txt": "/deploy-github/static/js/2.456fdf89.chunk.js.LICENSE.txt"
+    "main.css": "/whathappnedmarket/static/css/main.d87cbb72.chunk.css",
+    "main.js": "/whathappnedmarket/static/js/main.07386f3c.chunk.js",
+    "main.js.map": "/whathappnedmarket/static/js/main.07386f3c.chunk.js.map",
+    "runtime-main.js": "/whathappnedmarket/static/js/runtime-main.328875d0.js",
+    "runtime-main.js.map": "/whathappnedmarket/static/js/runtime-main.328875d0.js.map",
+    "static/js/2.456fdf89.chunk.js": "/whathappnedmarket/static/js/2.456fdf89.chunk.js",
+    "static/js/2.456fdf89.chunk.js.map": "/whathappnedmarket/static/js/2.456fdf89.chunk.js.map",
+    "index.html": "/whathappnedmarket/index.html",
+    "static/css/main.d87cbb72.chunk.css.map": "/whathappnedmarket/static/css/main.d87cbb72.chunk.css.map",
+    "static/js/2.456fdf89.chunk.js.LICENSE.txt": "/whathappnedmarket/static/js/2.456fdf89.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7d7a88a.js",
+    "static/js/runtime-main.328875d0.js",
     "static/js/2.456fdf89.chunk.js",
     "static/css/main.d87cbb72.chunk.css",
     "static/js/main.07386f3c.chunk.js"
