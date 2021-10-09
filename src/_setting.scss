@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('./assets/fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr";
+  src: url('./assets/fonts/NotoSansCJKkr-DemiLight.otf');
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr";
+  src: url('./assets/fonts/NotoSansCJKkr-Regular.otf');
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr";
+  src: url('./assets/fonts/NotoSansCJKkr-Medium.otf');
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr";
+  src: url('./assets/fonts/NotoSansCJKkr-Bold.otf');
+}
+
+@mixin TextStyle4 {
+  font-family: "NotoSansCJKkr";
+  font-size: 64px;
+  line-height: 48px;
+}
+
+@mixin TextStyle5 {
+  font-family: "Montserrat";
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+@mixin TextStyle3 {
+  font-family: "Montserrat";
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 4.5px;
+}
+
+@mixin TextStyle2 {
+  font-family: "NotoSansCJKkr";
+  font-size: 35px;
+  line-height: 30px;
+}
+
+
+@mixin TextStyle {
+  font-family: "Montserrat";
+  font-size: 35px;
+  line-height: 30px;
+}
+
+$black: #1A1A1A;
+$white: #ffffff;
+$--main-color: #ffffff;
+$primary: #0565bb;
+$yellow-bgr: #fccb05;
+$text-txt: #fcd32a; 

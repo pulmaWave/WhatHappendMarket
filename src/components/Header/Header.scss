@@ -1,0 +1,14 @@
+@import "_setting.scss";
+
+h1 {
+  margin: 20px 212px 40px 177px;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 4.5px;
+  text-align: left;
+  @include TextStyle4;
+  color: $black;
+}
