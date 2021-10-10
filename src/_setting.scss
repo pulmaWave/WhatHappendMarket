@@ -96,17 +96,34 @@ $black: #1a1a1a;
 $white: #ffffff;
 $main-color: #ffffff;
 $primary: #0565bb;
-$yellow-bgr: #fccb05;
 $yellow-txt: #fcd32a;
 $white-txt: #ffffff;
 $orange-txt: #f96400;
 $black3-txt: #333333;
 $black6-txt: #666666;
-
+$yellow-bgr: #fccb05;
+$bgr-brand-story: #0565bb;
+$bgr-orange: #ff5500;
 
 //spacing
+@mixin btn-see-more {
+  border: solid 3px $black;
+  background-color: $white;
+  width: 199px;
+  height: 60px;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.09;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $black;
+  cursor: pointer;
+}
+
 @mixin border-box {
-   border: solid 3px $black;
+  border: solid 3px $black;
   background-color: $white;
 }
 
@@ -118,6 +135,6 @@ $black6-txt: #666666;
   max-height: auto;
 }
 
-.txt-center{
+.txt-center {
   align-items: center;
 }

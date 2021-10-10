@@ -1,0 +1,63 @@
+@import "_setting.scss";
+
+.section5 {
+  background-color: $bgr-brand-story;
+  padding-top: 150px;
+  .st5-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .st5-title {
+      @include TextStyle3;
+      color: $yellow-txt;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    .st5-sub {
+      font-family: NotoSansCJKkr;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: center;
+      color: $yellow-txt;
+    }
+  }
+  .st5-body {
+    .img-window {
+      top: 75px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .st5-content-more {
+      padding-left: 50px;
+      position: relative;
+      z-index: 2;
+      left: 50%;
+      transform: translateY(-98%);
+      width: 500px;
+      .ctmore-title {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 2.4;
+        text-align: left;
+        color: $black;
+      }
+      .ctmore-sub {
+        font-family: NotoSansCJKkr;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.88;
+        text-align: left;
+        color: $black;
+        margin-top: 15px;
+      }
+      .st5-more {
+        margin-top: 30px;
+        @include btn-see-more;
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@ const Section3 = () => {
       <div className="st3-main">
         <div className="st3-content">
           <span className="st3-title">best product</span>
-          <span class="st3-content-main">
+          <span className="st3-content-main">
             How to create mobile-optimized videos in minutes. Not a designer,
             every team makes a lot of videos Can be trimmed. Take the first
           </span>

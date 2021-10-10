@@ -1,0 +1,17 @@
+@import "_setting.scss";
+
+.brand {
+  .brand-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title {
+      text-transform: uppercase;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 1.67;
+      color: $white-txt;
+    }
+  }
+}

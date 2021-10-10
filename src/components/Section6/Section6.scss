@@ -1,0 +1,114 @@
+@import "_setting.scss";
+
+.section6 {
+  position: relative;
+  background-color: $yellow-bgr;
+  padding-top: 150px;
+  padding-bottom: 140px;
+  .dice {
+    position: absolute;
+    top: 43px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+    .dice5 {
+      margin-bottom: 25px;
+    }
+  }
+  .st6-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .st6-title {
+      @include TextStyle3;
+      color: $black;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    .st6-sub {
+      font-family: NotoSansCJKkr;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: center;
+      color: $black3-txt;
+    }
+    .st6-more {
+      margin-top: 30px;
+      margin-bottom: 128px;
+      @include btn-see-more;
+      background-color: transparent;
+    }
+  }
+  .brand-list {
+  }
+  .st6-body {
+    .brand-list {
+      height: 466px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .coin {
+        position: absolute;
+        left: 12%;
+        bottom: 50px;
+      }
+      .lologo {
+        position: absolute;
+        right: 18.5%;
+        bottom: 85px;
+      }
+      .hotlogo {
+        position: absolute;
+        left: 21%;
+        top: 42.8%;
+      }
+      .brand {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .brand0 {
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          align-items: center;
+          width: 383px;
+          height: 100%;
+          padding: 0;
+          background-color: $orange-txt;
+          .brand0-title {
+            text-transform: uppercase;
+            font-family: Montserrat;
+            font-size: 55px;
+            font-weight: 800;
+            line-height: 1.04;
+            color: $black;
+          }
+        }
+        .brand-image {
+          img {
+            width: 380px;
+            height: auto;
+            object-fit: fit;
+          }
+        }
+        .brand-header {
+          display: flex;
+          justify-content: center;
+          background-color: $black;
+          width: 380px;
+          padding: 10px 0;
+          .title {
+            text-transform: uppercase;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 1.67;
+            color: $white-txt;
+          }
+        }
+      }
+    }
+  }
+}
