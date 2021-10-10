@@ -1,0 +1,44 @@
+@import "_setting.scss";
+
+.section3 {
+  position: relative;
+  .st3-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: (translateX(-50%));
+    transform: translateY(-50%);
+    .st3-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .st3-title {
+        display: block;
+        text-transform: uppercase;
+        @include TextStyle5;
+        width: max-content;
+        font-stretch: normal;
+        font-style: normal;
+        color: $orange-txt;
+      }
+      .st3-content-main {
+        display: block;
+        width: 665px;
+        text-align: center;
+        word-break: normal;
+        font-size: 19px;
+        margin-top: 49px;
+        font-family: Montserrat;
+        font-style: normal;
+        line-height: 1.6;
+        color: $orange-txt;
+      }
+    }
+    .product-list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 27px;
+    }
+  }
+}

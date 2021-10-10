@@ -1,0 +1,29 @@
+@import "_setting.scss";
+
+.section4 {
+  position: relative;
+  .st4-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 174px;
+    padding-bottom: 314px;
+  }
+  .btn-more {
+    position: absolute;
+    left: 50%;
+    bottom: 140px;
+    transform: translateX(-50%);
+    width: 199px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 1.09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+    @include border-box;
+  }
+}

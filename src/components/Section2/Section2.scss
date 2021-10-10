@@ -1,0 +1,36 @@
+@import "_setting.scss";
+
+.section2 {
+  position: relative;
+  .st2-content {
+    position: absolute;
+    top: 174px;
+    left: 173px;
+    .st2-title {
+      display: block;
+      text-transform: uppercase;
+      font-family: Montserrat;
+      font-size: 50px;
+      font-weight: 800;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: 5px;
+      text-align: left;
+      color: $white-txt;
+    }
+    .st2-content-main {
+      display: block;
+      word-wrap: break-word;
+      width: 667px;
+      margin-top: 59px;
+      font-family: Montserrat;
+      font-size: 19px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: $white-txt;
+    }
+  }
+}

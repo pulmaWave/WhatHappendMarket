@@ -12,3 +12,48 @@ h1 {
   @include TextStyle4;
   color: $black;
 }
+
+@mixin flex($align: flex-start, $justify: flex-start, $wrap: no-wrap) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+}
+
+.header {
+  max-width: 1920px;
+  height: 80px;
+  background-color: $black;
+  align-items: center;
+  @include flex(center, space-between);
+  .logo {
+    margin-left: 80px;
+    display: block;
+    font-family: Montserrat;
+    font-size: 29px;
+    line-height: 29px;
+    color: $main-color;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    .devide {
+      width: 1px;
+      height: 23px;
+      background-color: $white-txt;
+    }
+    .nav-item {
+      text-transform: uppercase;
+      display: inline-block;
+      color: $white-txt;
+      margin-left: 72px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: center;
+    }
+    .nav-item:nth-last-child(1) {
+      margin-right: 120px;
+    }
+  }
+}
