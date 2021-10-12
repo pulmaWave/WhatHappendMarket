@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/test-frontend/static/css/main.e0ab2e62.chunk.css",
-    "main.js": "/test-frontend/static/js/main.a1624f2b.chunk.js",
-    "main.js.map": "/test-frontend/static/js/main.a1624f2b.chunk.js.map",
+    "main.css": "/test-frontend/static/css/main.cab5b712.chunk.css",
+    "main.js": "/test-frontend/static/js/main.56dd6cfa.chunk.js",
+    "main.js.map": "/test-frontend/static/js/main.56dd6cfa.chunk.js.map",
     "runtime-main.js": "/test-frontend/static/js/runtime-main.51b6c086.js",
     "runtime-main.js.map": "/test-frontend/static/js/runtime-main.51b6c086.js.map",
     "static/js/2.c884f1f8.chunk.js": "/test-frontend/static/js/2.c884f1f8.chunk.js",
     "static/js/2.c884f1f8.chunk.js.map": "/test-frontend/static/js/2.c884f1f8.chunk.js.map",
     "index.html": "/test-frontend/index.html",
-    "static/css/main.e0ab2e62.chunk.css.map": "/test-frontend/static/css/main.e0ab2e62.chunk.css.map",
+    "static/css/main.cab5b712.chunk.css.map": "/test-frontend/static/css/main.cab5b712.chunk.css.map",
     "static/js/2.c884f1f8.chunk.js.LICENSE.txt": "/test-frontend/static/js/2.c884f1f8.chunk.js.LICENSE.txt",
     "static/media/Section7.scss": "/test-frontend/static/media/NotoSansCJKkr-Regular.197944bc.otf",
-    "static/media/bes-bg.08b8b84f.png": "/test-frontend/static/media/bes-bg.08b8b84f.png",
+    "static/media/Section3.scss": "/test-frontend/static/media/bes-bg.08b8b84f.png",
     "static/media/best-image-01.575f1294.jpg": "/test-frontend/static/media/best-image-01.575f1294.jpg",
     "static/media/best-image-01@2x.8d1eae1c.jpg": "/test-frontend/static/media/best-image-01@2x.8d1eae1c.jpg",
     "static/media/best-image-01@3x.b09dad1e.jpg": "/test-frontend/static/media/best-image-01@3x.b09dad1e.jpg",
@@ -97,7 +97,7 @@
     "static/media/img-25.c171d4cb.webp": "/test-frontend/static/media/img-25.c171d4cb.webp",
     "static/media/img-25@2x.bb7e9fef.jpg": "/test-frontend/static/media/img-25@2x.bb7e9fef.jpg",
     "static/media/img-25@3x.a6e2d712.jpg": "/test-frontend/static/media/img-25@3x.a6e2d712.jpg",
-    "static/media/introduction-bg.a6337054.webp": "/test-frontend/static/media/introduction-bg.a6337054.webp",
+    "static/media/introduction-bg.1563ce83.png": "/test-frontend/static/media/introduction-bg.1563ce83.png",
     "static/media/main-banner.b48c79d1.png": "/test-frontend/static/media/main-banner.b48c79d1.png",
     "static/media/news-img-03.921d784f.jpg": "/test-frontend/static/media/news-img-03.921d784f.jpg",
     "static/media/news-img-04.15041563.jpg": "/test-frontend/static/media/news-img-04.15041563.jpg",
@@ -112,7 +112,7 @@
   "entrypoints": [
     "static/js/runtime-main.51b6c086.js",
     "static/js/2.c884f1f8.chunk.js",
-    "static/css/main.e0ab2e62.chunk.css",
-    "static/js/main.a1624f2b.chunk.js"
+    "static/css/main.cab5b712.chunk.css",
+    "static/js/main.56dd6cfa.chunk.js"
   ]
 }
