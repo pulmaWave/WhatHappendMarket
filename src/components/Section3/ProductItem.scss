@@ -4,15 +4,15 @@
   position: relative;
   width: 523px;
   .count-header {
+    cursor: pointer;
     position: relative;
     left: 0;
     transform: translateY(50%);
     width: 98px;
-    height: 98px;
-    background-color: transparent;
   }
   .product {
     .bestimage01 {
+      display: flex;
       width: 523px;
       height: 514px;
       object-fit: contain;
@@ -22,16 +22,12 @@
     position: relative;
     left: 50%;
     transform: (translateX(-50%));
-    bottom: 39px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 369px;
     height: 73px;
     padding: 0 8px 0 27px;
     @include border-box;
-    .go-logo {
-      object-fit: contain;
-    }
     .prd-footer-content {
       display: block;
       margin: 13px 81px 9px 0;
@@ -42,4 +38,42 @@
       color: $black;
     }
   }
+}
+
+@media screen and (max-width: 480px) {
+  .product-item {
+  position: relative;
+  width: 290px;
+  .count-header {
+    position: relative;
+    left: 0;
+    transform: translateY(50%);
+    width: 55px;
+  }
+  .product {
+    .bestimage01 {
+      width: 290px;
+      height: unset;
+      object-fit: contain;
+    }
+  }
+  .product-footer {
+    width: unset;
+    align-items: center;
+    height: 50px;
+    padding-left: 8px;
+    .go-logo {
+      width: 45px;
+    }
+    .prd-footer-content {
+      display: block;
+      margin: 13px 20px 9px 0;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 1.25;
+      color: $black;
+    }
+  }
+}
 }

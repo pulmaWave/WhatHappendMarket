@@ -1,5 +1,7 @@
 @import "_setting.scss";
 $width-img: 298px;
+$width-img-mb: 180px;
+$height-img-mb: 250px;
 $txt-size: 16px;
 
 .product2 {
@@ -10,6 +12,7 @@ $txt-size: 16px;
     object-fit: contain;
   }
   .prd2-name {
+    cursor: pointer;
     display: block;
     margin: calc(#{$width-img}/ 10) 0;
     font-family: Montserrat;
@@ -26,17 +29,49 @@ $txt-size: 16px;
     .prd2-price {
       color: $black3-txt;
       font-family: Montserrat;
-      font-size: 16px;
+      font-size: $txt-size;
     }
     .prd2-like {
       color: $black6-txt;
       font-family: Montserrat;
-      font-size: 16px;
+      font-size: $txt-size;
       display: flex;
       align-items: center;
       .heart-svg {
         height: $txt-size;
         margin-right: 7px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product2 {
+    justify-content: space-between;
+    margin: unset;
+    margin-bottom: 30px;
+    .prd2-img {
+      display: flex;
+      object-fit: cover;
+      width: $width-img-mb;
+      height: $height-img-mb;
+    }
+    .prd2-name {
+      margin: 10px 0 10px 0;
+      max-width: $width-img-mb;
+      line-height: 1.5;
+      font-size: 17px;
+    }
+    .inner {
+
+      .prd2-price {
+        font-size: 14px;
+      }
+      .prd2-like {
+        font-size: 14px;
+        .heart-svg {
+          height: 14px;
+        }
       }
     }
   }

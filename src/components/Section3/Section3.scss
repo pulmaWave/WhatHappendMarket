@@ -2,6 +2,8 @@
 
 .section3 {
   position: relative;
+  height: 1073px;
+  background-image: url('../../assets/section3/bes-bg.png');
   .st3-main {
     position: absolute;
     top: 50%;
@@ -39,6 +41,32 @@
       display: flex;
       justify-content: center;
       margin-bottom: 27px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section3 {
+    height: 1460px;
+    .st3-main {
+      @include flex-center;
+      .st3-content {
+        .st3-title {
+          width: 320px;
+          line-height: unset;
+          font-size: 18px;
+        }
+        .st3-content-main {
+          text-align: justify;
+          font-size: 14px;
+          width: 80%;
+          margin-top: 10px;
+          line-height: 1.5;
+        }
+      }
+      .product-list {
+        flex-direction: column;
+      }
     }
   }
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Section2.scss"
-import IntroBg from "assets/section2/introduction-bg.webp"
+import IntroBg from "assets/section2/introduction-bg.png"
 
 const Section2 = () => {
   return (
     <div className="section2">
-      <img src={IntroBg} alt="introduction background" className="img-bg"/>
+      <img src={IntroBg} alt="banner" />
       <div className="st2-content">
         <span className="st2-title">What Happened!</span>
         <span className="st2-content-main">

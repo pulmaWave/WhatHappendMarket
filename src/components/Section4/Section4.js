@@ -273,14 +273,16 @@ const Section4 = () => {
           prd2Price="2,500 won"
           likeCount="236"
         />
-        <Product2
-          image={image25}
-          productImage2={image252x}
-          productImage3={image253x}
-          productName="[what happen] How to create "
-          prd2Price="2,500 won"
-          likeCount="236"
-        />
+        <div className="prd-last">
+          <Product2
+            image={image25}
+            productImage2={image252x}
+            productImage3={image253x}
+            productName="[what happen] How to create "
+            prd2Price="2,500 won"
+            likeCount="236"
+          />
+        </div>
       </div>
       <div className="btn-more">see more</div>
     </div>

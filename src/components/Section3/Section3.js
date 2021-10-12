@@ -1,7 +1,6 @@
 import React from 'react'
 import './Section3.scss'
 import ProductItem from './ProductItem'
-import BestBg from 'assets/section3/bes-bg.png'
 import count1 from 'assets/section3/producticon-01.webp'
 import bestimage01 from 'assets/section3/best-image-01.jpg'
 import bestimage012x from 'assets/section3/best-image-01@2x.jpg'
@@ -18,7 +17,7 @@ import bestimage033x from 'assets/section3/best-image-03@3x.jpg'
 const Section3 = () => {
   return (
     <div className="section3">
-      <img src={BestBg} alt="best background" className="img-bg" />
+      {/* <img src="" alt="" /> */}
       <div className="st3-main">
         <div className="st3-content">
           <span className="st3-title">best product</span>

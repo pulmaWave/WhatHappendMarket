@@ -61,3 +61,35 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+.section5 {
+  display: none;
+  .st5-header {
+
+    .st5-title {
+
+    }
+    .st5-sub {
+
+    }
+  }
+  .st5-body {
+    .img-window {
+
+    }
+    .st5-content-more {
+
+      .ctmore-title {
+
+      }
+      .ctmore-sub {
+
+      }
+      .st5-more {
+    
+      }
+    }
+  }
+}
+}

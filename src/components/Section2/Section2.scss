@@ -1,11 +1,14 @@
 @import "_setting.scss";
 
 .section2 {
+  display: flex;
   position: relative;
+  overflow: hidden;
   .st2-content {
     position: absolute;
-    top: 174px;
-    left: 173px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
     .st2-title {
       display: block;
       text-transform: uppercase;
@@ -21,7 +24,7 @@
     .st2-content-main {
       display: block;
       word-wrap: break-word;
-      width: 667px;
+      max-width: 80%;
       margin-top: 59px;
       font-family: Montserrat;
       font-size: 19px;
@@ -31,6 +34,34 @@
       letter-spacing: normal;
       text-align: left;
       color: $white-txt;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section2 {
+    img {
+      height: 250px;
+    }
+    .st2-content {
+      width: 80%;
+      object-fit: cover;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .st2-title {
+        font-size: 18px;
+      }
+      .st2-content-main {
+        text-align: justify;
+        width: 90%;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #ffffff;
+      }
     }
   }
 }

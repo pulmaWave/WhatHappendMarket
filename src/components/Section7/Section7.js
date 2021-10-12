@@ -15,7 +15,7 @@ const Section7 = () => {
         <div className="st7-more">see more</div>
       </div>
       <div className="st7-body">
-        <div className="">
+        <div className="st7-image">
           <img src={banner} alt="background" className="img-banner" />
         </div>
       </div>

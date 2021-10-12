@@ -2,7 +2,7 @@
 
 .section7 {
   background-color: $main-color;
-  padding-top: 150px;
+  padding: 145px 0;
   .st7-header {
     display: flex;
     flex-direction: column;
@@ -28,11 +28,18 @@
     }
   }
   .st7-body {
-    .img-banner {
-      top: 75px;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
+    .st7-image {
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
     }
+    .img-banner {
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section7 {
+    display: none;
   }
 }

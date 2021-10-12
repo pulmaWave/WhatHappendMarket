@@ -1,22 +1,33 @@
 @import "_setting.scss";
 
 .section4 {
-  position: relative;
+  @include flex-center;
+  padding-bottom: 140px;
   .st4-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 174px;
-    padding-bottom: 250px;
+    padding: 174px 174px 50px 174px;
     .margin-prd2 {
       margin-bottom: 70px;
     }
   }
   .btn-more {
-    position: absolute;
-    left: 50%;
-    bottom: 140px;
-    transform: translateX(-50%);
     @include btn-see-more;
   }
+}
+
+
+@media screen and (max-width: 480px) {
+.section4{
+  padding-bottom: 50px;
+  .st4-container{
+    padding: unset;
+    justify-content: space-evenly;
+    padding: 50px 5px 0 5px;
+    .prd-last{
+      display: none;
+    }
+  }
+}
 }

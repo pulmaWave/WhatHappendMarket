@@ -101,7 +101,7 @@ $white-txt: #ffffff;
 $orange-txt: #f96400;
 $black3-txt: #333333;
 $black6-txt: #666666;
-$yellow-bgr: #fccb05;
+$goldenrod: #fccb05;
 $bgr-brand-story: #0565bb;
 $bgr-orange: #ff5500;
 
@@ -127,9 +127,14 @@ $bgr-orange: #ff5500;
   background-color: $white;
 }
 
+@mixin flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 //same class
 .img-bg {
-  margin-top: -4px;
   object-fit: contain;
   max-width: 100%;
   max-height: auto;

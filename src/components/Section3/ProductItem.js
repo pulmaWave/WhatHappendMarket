@@ -1,11 +1,9 @@
 import React from 'react'
-import "./ProductItem.scss"
+import './ProductItem.scss'
 import go_logo from 'assets/section3/go-icon.svg'
 
-
 const ProductItem = (props) => {
-
-  const { count, productImage, productImage2, productImage3 } = props;
+  const { count, productImage, productImage2, productImage3 } = props
 
   return (
     <div>
@@ -21,7 +19,7 @@ const ProductItem = (props) => {
         </div>
         <div className="product-footer">
           <span className="prd-footer-content">
-            How to create mobile-optimized
+            How to create <br /> mobile-optimized
           </span>
           <img src={go_logo} alt="go logo" className="go-logo" />
         </div>

@@ -2,7 +2,7 @@
 
 .section6 {
   position: relative;
-  background-color: $yellow-bgr;
+  background-color: $goldenrod;
   padding-top: 150px;
   padding-bottom: 140px;
   .dice {
@@ -40,8 +40,6 @@
       @include btn-see-more;
       background-color: transparent;
     }
-  }
-  .brand-list {
   }
   .st6-body {
     .brand-list {
@@ -110,5 +108,11 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section6{
+    display: none;
   }
 }
