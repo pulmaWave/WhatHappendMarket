@@ -40,6 +40,9 @@
       @include btn-see-more;
       background-color: transparent;
     }
+    .st6-more:hover {
+      background-color: $white;
+    }
   }
   .st6-body {
     .brand-list {
@@ -112,7 +115,56 @@
 }
 
 @media screen and (max-width: 480px) {
-  .section6{
-    display: none;
+  .section6 {
+    padding: 50px 30px 0 30px;
+    height: 2830px;
+    .st6-header{
+      position: relative;
+      z-index: 99;
+    }
+    .dice5, .dice3{
+      img{
+        width: 60px;
+      }
+    }
+    .hotlogo{
+      display: none;
+    }
+    .lologo, .coin{
+      display: none;
+    }
+    .brand-header {
+      display: flex;
+      justify-content: center;
+      background-color: $black;
+      max-width: 320px;
+      padding: 10px 0;
+    }
+
+    .brand0 {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      max-width: 320px;
+      height: 100%;
+      padding: 0;
+      background-color: $orange-txt;
+      .brand0-title {
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 1.04;
+        color: $black;
+      }
+    }
+    .brand-image {
+      img {
+        max-width: 320px;
+        height: auto;
+      }
+    }
   }
 }

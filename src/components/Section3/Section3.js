@@ -3,16 +3,10 @@ import './Section3.scss'
 import ProductItem from './ProductItem'
 import count1 from 'assets/section3/producticon-01.webp'
 import bestimage01 from 'assets/section3/best-image-01.jpg'
-import bestimage012x from 'assets/section3/best-image-01@2x.jpg'
-import bestimage013x from 'assets/section3/best-image-01@3x.jpg'
 import count2 from 'assets/section3/producticon-02.webp'
 import bestimage02 from 'assets/section3/best-image-02.jpg'
-import bestimage022x from 'assets/section3/best-image-02@2x.jpg'
-import bestimage023x from 'assets/section3/best-image-02@3x.jpg'
 import count3 from 'assets/section3/producticon-03.webp'
 import bestimage03 from 'assets/section3/best-image-03.jpg'
-import bestimage032x from 'assets/section3/best-image-03@2x.jpg'
-import bestimage033x from 'assets/section3/best-image-03@3x.jpg'
 
 const Section3 = () => {
   return (
@@ -27,24 +21,9 @@ const Section3 = () => {
           </span>
         </div>
         <div className="product-list">
-          <ProductItem
-            count={count1}
-            productImage={bestimage01}
-            productImage2={bestimage012x}
-            productImage3={bestimage013x}
-          />
-          <ProductItem
-            count={count2}
-            productImage={bestimage02}
-            productImage2={bestimage022x}
-            productImage3={bestimage023x}
-          />
-          <ProductItem
-            count={count3}
-            productImage={bestimage03}
-            productImage2={bestimage032x}
-            productImage3={bestimage033x}
-          />
+          <ProductItem count={count1} productImage={bestimage01} />
+          <ProductItem count={count2} productImage={bestimage02} />
+          <ProductItem count={count3} productImage={bestimage03} />
         </div>
       </div>
     </div>

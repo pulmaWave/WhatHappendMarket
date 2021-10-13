@@ -26,6 +26,10 @@
       margin-top: 43px;
       @include btn-see-more;
     }
+    .st7-more:hover {
+      color: $white-txt;
+      background-color: $black;
+    }
   }
   .st7-body {
     .st7-image {

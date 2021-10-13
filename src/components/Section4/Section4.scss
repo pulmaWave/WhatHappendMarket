@@ -15,19 +15,27 @@
   .btn-more {
     @include btn-see-more;
   }
-}
-
-
-@media screen and (max-width: 480px) {
-.section4{
-  padding-bottom: 50px;
-  .st4-container{
-    padding: unset;
-    justify-content: space-evenly;
-    padding: 50px 5px 0 5px;
-    .prd-last{
-      display: none;
-    }
+  .btn-more:hover {
+    color: $white-txt;
+    background-color: $black;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .section4 {
+    padding-bottom: 30px;
+    .btn-more {
+      width: 105px;
+      height: 30px;
+      font-size: 17px;
+    }
+    .st4-container {
+      padding: unset;
+      justify-content: space-evenly;
+      padding: 50px 5px 0 5px;
+      .prd-last {
+        display: none;
+      }
+    }
+  }
 }

@@ -22,74 +22,137 @@
       text-align: center;
       color: $yellow-txt;
     }
+    .st5-sub-mb {
+      display: none;
+    }
   }
   .st5-body {
-    .img-window {
-      top: 75px;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    .st5-content-more {
-      padding-left: 50px;
-      position: relative;
-      z-index: 2;
-      left: 50%;
-      transform: translateY(-98%);
-      width: 500px;
-      .ctmore-title {
-        font-family: Montserrat;
-        font-size: 25px;
-        font-weight: 800;
-        line-height: 2.4;
-        text-align: left;
-        color: $black;
+    .st5-bd-ct {
+      .img-window-mb {
+        display: none;
       }
-      .ctmore-sub {
-        font-family: NotoSansCJKkr;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 1.88;
-        text-align: left;
-        color: $black;
-        margin-top: 15px;
+      .img-window {
+        top: 75px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
       }
-      .st5-more {
-        margin-top: 30px;
-        @include btn-see-more;
+      .st5-content-more {
+        padding-left: 50px;
+        position: relative;
+        z-index: 2;
+        left: 50%;
+        transform: translateY(-98%);
+        width: 500px;
+        .ctmore-title {
+          font-family: Montserrat;
+          font-size: 25px;
+          font-weight: 800;
+          line-height: 2.4;
+          text-align: left;
+          color: $black;
+        }
+        .ctmore-sub {
+          font-family: NotoSansCJKkr;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 1.88;
+          text-align: left;
+          color: $black;
+          margin-top: 15px;
+        }
+        .st5-more {
+          margin-top: 30px;
+          @include btn-see-more;
+        }
+        .st5-more:hover {
+          color: $white-txt;
+          background-color: $black;
+        }
       }
     }
   }
 }
 
 @media screen and (max-width: 480px) {
-.section5 {
-  display: none;
-  .st5-header {
-
-    .st5-title {
-
+  .section5 {
+    padding-top: unset;
+    padding: 30px 10px 30px 10px;
+    .st5-header {
+      margin-bottom: 25px;
+      .st5-title {
+        width: 320px;
+        line-height: unset;
+        font-size: 17px;
+        text-align: center;
+      }
+      .st5-sub {
+        display: none;
+      }
+      .st5-sub-mb {
+        font-family: NotoSansCJKkr;
+        font-weight: 300;
+        color: $yellow-txt;
+        display: flex;
+        text-align: justify;
+        font-size: 14px;
+        width: 80%;
+        line-height: 1.5;
+      }
     }
-    .st5-sub {
-
+    .st5-body {
+      .st5-bd-ct {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img-window-mb {
+          display: block;
+          width: calc(80vw + 30px);
+        }
+        .img-window {
+          display: none;
+        }
+        .st5-content-more {
+          width: unset;
+          padding-left: unset;
+          position: unset;
+          z-index: unset;
+          left: unset;
+          transform: unset;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .bg-white {
+            width: 80vw;
+            padding: 15px;
+            background-color: $white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+          }
+          .ctmore-title {
+            width: 320px;
+            line-height: unset;
+            font-size: 17px;
+            text-align: center;
+          }
+          .ctmore-sub {
+            width: 320px;
+            font-size: 13px;
+            line-height: 2;
+            color: $black;
+            text-align: justify;
+            margin-top: 15px;
+          }
+          .st5-more {
+            width: 105px;
+            height: 30px;
+            font-size: 17px;
+          }
+        }
+      }
     }
   }
-  .st5-body {
-    .img-window {
-
-    }
-    .st5-content-more {
-
-      .ctmore-title {
-
-      }
-      .ctmore-sub {
-
-      }
-      .st5-more {
-    
-      }
-    }
-  }
-}
 }

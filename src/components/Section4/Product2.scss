@@ -1,7 +1,7 @@
 @import "_setting.scss";
 $width-img: 298px;
-$width-img-mb: 180px;
-$height-img-mb: 250px;
+$width-img-mb: 155px;
+$height-img-mb: 230px;
 $txt-size: 16px;
 
 .product2 {
@@ -21,6 +21,9 @@ $txt-size: 16px;
     font-stretch: normal;
     line-height: 1.94;
     color: $black;
+  }
+  .prd2-name:hover{
+    color: #9e9e9e;
   }
   .inner {
     display: flex;
@@ -60,17 +63,17 @@ $txt-size: 16px;
       margin: 10px 0 10px 0;
       max-width: $width-img-mb;
       line-height: 1.5;
-      font-size: 17px;
+      font-size: 15px;
     }
     .inner {
-
+      padding-right: 3px;
       .prd2-price {
         font-size: 14px;
       }
       .prd2-like {
-        font-size: 14px;
+        font-size: 13px;
         .heart-svg {
-          height: 14px;
+          height: 13px;
         }
       }
     }

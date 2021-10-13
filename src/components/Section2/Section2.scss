@@ -18,13 +18,9 @@
       font-style: normal;
       line-height: 1.2;
       letter-spacing: 5px;
-      text-align: left;
       color: $white-txt;
     }
     .st2-content-main {
-      display: block;
-      word-wrap: break-word;
-      max-width: 80%;
       margin-top: 59px;
       font-family: Montserrat;
       font-size: 19px;
@@ -32,8 +28,10 @@
       font-style: normal;
       line-height: 1.75;
       letter-spacing: normal;
-      text-align: left;
       color: $white-txt;
+    }
+    .st2-content-main-mb {
+      display: none;
     }
   }
 }
@@ -52,15 +50,20 @@
       justify-content: center;
       align-items: center;
       .st2-title {
-        font-size: 18px;
+        font-size: 17px;
       }
       .st2-content-main {
+        display: none;
+      }
+      .st2-content-main-mb {
+        font-family: Montserrat;
+        display: block;
         text-align: justify;
         width: 90%;
         margin-top: 15px;
         font-size: 14px;
         line-height: 1.5;
-        color: #ffffff;
+        color: $white-txt;
       }
     }
   }

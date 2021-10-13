@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.scss'
-import navlogo from 'assets/section7/video-object-06.png'
+import menulogo from 'assets/header/menuic.png'
+import cancel from 'assets/header/close.png'
 
 const Header = () => {
   return (
@@ -18,15 +19,20 @@ const Header = () => {
       </div>
       <div className="header-mobile">
         <span className="logo">what happened</span>
-        <img src={navlogo} alt="navbar logo" className="nav-logo" />
-        <div className="nav-overlay">
-        </div>
+        <label htmlFor="nav-mb-input">
+          <img src={menulogo} alt="navbar logo" className="nav-logo" />
+        </label>
+        <input type="checkbox" hidden className="nav-input" id="nav-mb-input" />
+        <label htmlFor="nav-mb-input" className="nav-overlay"></label>
         <nav className="nav-mobile">
-          <ul className="nav-list">
-            <li className="nav-item">introduction</li>
-            <li className="nav-item">solution</li>
-            <li className="nav-item">rate plan</li>
-            <li className="nav-item">log in</li>
+          <label htmlFor="nav-mb-input" className="cancel-mb">
+            <img src={cancel} alt="cancel" />
+          </label>
+          <ul className="nav-mb-list">
+            <li className="nav-item">Introduction</li>
+            <li className="nav-item">Solution</li>
+            <li className="nav-item">Rate plan</li>
+            <li className="nav-item">Log in</li>
           </ul>
         </nav>
       </div>

@@ -1,1 +1,84 @@
 @import "_setting.scss";
+$border-color: #33333324;
+
+.footer-mb {
+  display: none;
+}
+.footer-pc {
+  padding: 50px 100px 100px 100px;
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border-top: solid 0.5px $border-color;
+    border-bottom: solid 0.5px $border-color;
+    .info-right {
+      display: flex;
+      .ifr {
+        margin-left: 100px;
+      }
+    }
+    .if-title {
+      cursor: pointer;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.14;
+      color: $black;
+      margin-bottom: 30px;
+    }
+    .if-content {
+      cursor: pointer;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 2.14;
+      color: $black;
+    }
+  }
+  .license {
+    display: flex;
+    justify-content: space-between;
+    .license-title {
+      .lct {
+        font-family: NotoSansCJKkr;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.71;
+        color: #a9a9a9;
+      }
+    }
+    .social {
+      display: flex;
+      margin-top: 20px;
+      .sc-item {
+        cursor: pointer;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-pc {
+    display: none;
+  }
+  .footer-mb {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    .if-title {
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.14;
+      color: $black;
+    }
+    .social {
+      display: flex;
+      .sc-item {
+        margin-left: 5px;
+      }
+    }
+  }
+}
